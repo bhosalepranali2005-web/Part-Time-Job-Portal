@@ -23,7 +23,6 @@ A full-stack web application designed to connect job seekers with flexible part-
 
 ## 📁 Project Structure
 
-```text
 part-time-job-portal/
 ├── config/         # Database configuration
 ├── middleware/     # Custom authentication and upload middleware
@@ -35,7 +34,7 @@ part-time-job-portal/
 ├── server.js       # Application entry point
 ├── package.json    # Project dependencies and scripts
 └── .env.example    # Environment variables template
-text```
+
 
 
 ##⚙️ Getting Started
