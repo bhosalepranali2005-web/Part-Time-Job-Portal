@@ -35,10 +35,10 @@ part-time-job-portal/
 ├── server.js       # Application entry point
 ├── package.json    # Project dependencies and scripts
 └── .env.example    # Environment variables template
+```text
 
 
-
-⚙️ Getting Started
+##⚙️ Getting Started
 Prerequisites
 Make sure you have the following installed on your local machine:
 
@@ -46,15 +46,15 @@ Node.js (v14+ recommended)
 
 MongoDB (running locally or a cloud cluster via MongoDB Atlas)
 
-Installation & Setup
+## Installation & Setup
 Clone the repository:
 
-Bash
+## Bash
 git clone [https://github.com/bhosalepranali2005-web/part-time-job-portal.git](https://github.com/bhosalepranali2005-web/part-time-job-portal.git)
 cd part-time-job-portal
 Install dependencies:
 
-Bash
+## Bash
 npm install
 Configure environment variables:
 
@@ -62,18 +62,18 @@ Duplicate .env.example and rename it to .env.
 
 Fill in your configuration values (such as PORT and MONGO_URI).
 
-Run the application:
+## Run the application:
 
 For development (using nodemon):
 
-Bash
+## Bash
 npm run dev
 For production:
 
-Bash
+## Bash
 npm start
 Access the portal:
 Open your browser and navigate to http://localhost:3000 (or whichever port you specified).
 
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License
