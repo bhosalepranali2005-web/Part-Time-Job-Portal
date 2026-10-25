@@ -35,7 +35,7 @@ part-time-job-portal/
 ├── server.js       # Application entry point
 ├── package.json    # Project dependencies and scripts
 └── .env.example    # Environment variables template
-```text
+text```
 
 
 ##⚙️ Getting Started
