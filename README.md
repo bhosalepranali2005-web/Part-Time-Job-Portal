@@ -21,22 +21,6 @@ A full-stack web application designed to connect job seekers with flexible part-
 
 ---
 
-## 📁 Project Structure
-
-part-time-job-portal/
-├── config/         # Database configuration
-├── middleware/     # Custom authentication and upload middleware
-├── models/         # Mongoose schemas (Job, Application, etc.)
-├── public/         # Static assets (CSS, client-side JS)
-├── routes/         # Application routes (Public, Admin)
-├── uploads/        # Uploaded files (resumes, documents)
-├── views/          # EJS templates (index, login, job-details, admin)
-├── server.js       # Application entry point
-├── package.json    # Project dependencies and scripts
-└── .env.example    # Environment variables template
-
-
-
 ##⚙️ Getting Started
 Prerequisites
 Make sure you have the following installed on your local machine:
@@ -44,6 +28,7 @@ Make sure you have the following installed on your local machine:
 Node.js (v14+ recommended)
 
 MongoDB (running locally or a cloud cluster via MongoDB Atlas)
+---
 
 ## Installation & Setup
 Clone the repository:
@@ -74,5 +59,25 @@ npm start
 Access the portal:
 Open your browser and navigate to http://localhost:3000 (or whichever port you specified).
 
+---
+
 ## 📄 License
 This project is open-source and available under the MIT License
+---
+
+
+## 📁 Project Structure
+```text
+part-time-job-portal/
+├── config/         # Database configuration
+├── middleware/     # Custom authentication and upload middleware
+├── models/         # Mongoose schemas (Job, Application, etc.)
+├── public/         # Static assets (CSS, client-side JS)
+├── routes/         # Application routes (Public, Admin)
+├── uploads/        # Uploaded files (resumes, documents)
+├── views/          # EJS templates (index, login, job-details, admin)
+├── server.js       # Application entry point
+├── package.json    # Project dependencies and scripts
+└── .env.example    # Environment variables template
+
+
